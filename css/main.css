@@ -1,0 +1,72 @@
+/* resets */
+
+body,
+figure {
+  margin: 0;
+}
+
+body{
+  max-width: 60em; /* 960px (16px = 1em) */
+  padding: 0 1em 0 1em; /* (clockwise) padding-top, padding-right, padding-bottom, padding-left */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.6; /* unitless, please! */
+}
+
+
+/* links */
+a {
+color: black; 
+}
+a:hover {
+  color: blue;
+}
+
+a:focus,
+a:active {
+color: green;
+}
+
+/* navigation */
+
+
+
+
+/* responsive images */
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* hero figure/img */
+
+figure.hero img {
+  display: block;
+  margin: 0 -1em;
+}
+
+figure.hero img{
+  margin-top: 3em;
+}
+
+
+figure.hero figcaption {
+  margin: 0 1em;
+}
+
+/* typographic details */
+
+p {
+  font-size: 1.3em;
+  line-height: 1.5; /* unitless, please! */
+}
+p.byline {
+  font-weight: bold;
+  text-transform: uppercase;
+}
